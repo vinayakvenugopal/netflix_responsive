@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.262),rgba(0,0,0,0.444)),url(./images/login-bg.jpeg);
+    height: 100vh;
+}
+
+
+.login-top{
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.login-top img{
+    width: 150px;
+}
+
+.login-box{
+    background-color: #000000af;
+    width: 450px;
+    height: 630px;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.small-text{
+    font-size : 13px;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+.medium-text{
+    font-size:18px;
+}
+
+.login-bottom a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
+.login-bottom{
+    white-space: nowrap;
+    padding-top: 50px;
+}
+
+.medium-text{
+    display: inline-block;
+    
+}
+.legal-text{
+    color: #8c8c8c;
+}
